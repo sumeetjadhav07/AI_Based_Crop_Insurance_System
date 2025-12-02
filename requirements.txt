@@ -1,10 +1,11 @@
 fastapi
 uvicorn[standard]
-motor            # async mongo driver
-pydantic
+motor
+pydantic==1.10.13
 python-multipart
-python-jose[cryptography]   # for JWT
-passlib[bcrypt]            # password hashing
-httpx                      # async http client to call model service
+python-jose[cryptography]
+passlib[bcrypt]
+httpx
 python-dotenv
-pillow                     # optional image handling
+pillow
+email-validator
