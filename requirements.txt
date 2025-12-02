@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+motor            # async mongo driver
+pydantic
+python-multipart
+python-jose[cryptography]   # for JWT
+passlib[bcrypt]            # password hashing
+httpx                      # async http client to call model service
+python-dotenv
+pillow                     # optional image handling
